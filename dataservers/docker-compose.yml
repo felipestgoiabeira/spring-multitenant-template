@@ -1,0 +1,27 @@
+version: '3.5'
+services:
+  thoth:
+    build: 
+      context: .
+    environment:
+        SA_PASSWORD: "3xP#Y0pB195"
+        ACCEPT_EULA: "Y"
+    ports: 
+      - 1433:1433
+  anubis:
+    build: 
+      context: .
+    environment:
+        SA_PASSWORD: "3xP#Y0pB195"
+        ACCEPT_EULA: "Y"
+    ports: 
+      - 1434:1433
+  osiris:
+    build: 
+      context: .
+    environment:
+        SA_PASSWORD: "3xP#Y0pB195"
+        ACCEPT_EULA: "Y"
+    ports: 
+      - 1435:1433
+  
