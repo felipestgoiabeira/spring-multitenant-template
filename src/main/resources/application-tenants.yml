@@ -1,0 +1,17 @@
+tenants:
+  datasources:
+    thoth:
+      url: jdbc:sqlserver://localhost:1433;verifyServerCertificate=false
+      username: sa
+      password: 3xP#Y0pB195
+      driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    anubis:
+      url: jdbc:sqlserver://localhost:1434;verifyServerCertificate=false
+      username: sa
+      password: 3xP#Y0pB195
+      driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    osiris:
+      url: jdbc:sqlserver://localhost:1435;
+      username: sa
+      password: 3xP#Y0pB195
+      driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
